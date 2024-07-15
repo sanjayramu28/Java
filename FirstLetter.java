@@ -8,7 +8,7 @@ public class FirstLetter{
         System.out.print(s.charAt(0));
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)==' '){
-                System.out.print(s.charAt(i+1));
+                System.out.print(s.charAt(i+1)+" ");
             }
         }
     }
